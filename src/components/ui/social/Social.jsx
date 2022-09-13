@@ -1,3 +1,8 @@
+
+//import per ReactIcons, se non vi funziona usare npm install react-icons
+import { ImFacebook } from "react-icons/im";
+import { ImTwitter } from "react-icons/im";
+
 function Social() {
   return (
     <div>
@@ -6,10 +11,10 @@ function Social() {
       </div>
       <div className="social-icons">
         <a>
-          <i></i>
+          <ImFacebook />
         </a>
         <a>
-          <i></i>
+          <ImTwitter />
         </a>
       </div>
     </div>

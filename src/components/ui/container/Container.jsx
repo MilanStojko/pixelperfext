@@ -1,20 +1,13 @@
-import Form from '../form/Form';
+import Form from "../form/Form";
 
-function Container(){
-    return(
+import "./container.scss";
 
-        <div className="container">
-            <Form />
-        </div>
-
-
-
-
-
-
-
-
-    )
+function Container() {
+  return (
+    <div className="container">
+      <Form />
+    </div>
+  );
 }
 
 export default Container;

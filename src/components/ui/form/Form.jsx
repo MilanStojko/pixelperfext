@@ -1,4 +1,8 @@
 import InputBox from "../inputBox/InputBox";
+import Button from "../button/Button";
+import Social from "../social/Social";
+
+import "./form.scss";
 
 function Form() {
   return (
@@ -18,6 +22,8 @@ function Form() {
         <div>
           <a href="#">Forgot password?</a>
         </div>
+        <Button />
+        <Social />
       </div>
     </div>
   );
