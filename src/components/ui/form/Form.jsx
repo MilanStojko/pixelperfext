@@ -17,10 +17,7 @@ function Form() {
           <div className="checkbox">
             <label>
               <div className="double">
-                {
-                  
-                  <input type="checkbox" checked></input>
-                }
+                <input type="checkbox"></input>
               </div>
               Remember me
             </label>
@@ -29,9 +26,7 @@ function Form() {
             <a href="#">Forgot password?</a>
           </div>
         </div>
-        <Button 
-          label={'LOGIN'}
-        />
+        <Button label={"LOGIN"} />
         <Social />
       </div>
     </div>
