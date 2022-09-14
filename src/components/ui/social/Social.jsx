@@ -3,10 +3,12 @@
 import { ImFacebook } from "react-icons/im";
 import { ImTwitter } from "react-icons/im";
 
+import 
+
 function Social() {
   return (
     <div>
-      <div>
+      <div className="text-login">
         <span className="sign">Or sign up using</span>
       </div>
       <div className="social-icons">

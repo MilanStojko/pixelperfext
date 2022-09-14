@@ -9,20 +9,29 @@ function Form() {
     <div className="form">
       <span className="title">Login to continue</span>
 
-      <InputBox />
-      <InputBox />
+      <InputBox placeholder={"Email"} />
+      <InputBox placeholder={"Password"} />
 
-      <div>
-        <div>
-          <label>
-            <input type="checkbox"></input>
-            Remember me
-          </label>
+      <div className="flex-container">
+        <div className="flex">
+          <div className="checkbox">
+            <label>
+              <div className="double">
+                {
+                  
+                  <input type="checkbox" checked></input>
+                }
+              </div>
+              Remember me
+            </label>
+          </div>
+          <div>
+            <a href="#">Forgot password?</a>
+          </div>
         </div>
-        <div>
-          <a href="#">Forgot password?</a>
-        </div>
-        <Button />
+        <Button 
+          label={'LOGIN'}
+        />
         <Social />
       </div>
     </div>
