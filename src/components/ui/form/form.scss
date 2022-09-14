@@ -1,3 +1,5 @@
+$text-color-input:  #999;
+$blue-color: #6675df;
 
 .form{
     width: 560px;
@@ -20,7 +22,8 @@
     .form{
         width: 100%;
         min-height: 100vh;
-        padding : 173px 55px 55px 55px
+        padding : 173px 55px 55px 55px;
+        background-color: #f7f7f7;
     }
 }
 
@@ -32,6 +35,59 @@
         padding-right: 15px;
         padding-top: 70px;
 
+        .flex-container{
+            width: 100%;
+            .flex{
+                width: 100%;
+                margin-top: 10px;
+                display: flex;
+                justify-content: space-between;
+                color: $text-color-input;
+                font-size: 13px;
+                padding-bottom: 32px;
+                padding-top: 3px;
+
+                div{
+                    a{
+                        text-decoration: none;
+                        color: #555555;
+                        font-family: 'Montserrat', sans-serif;
+                    }
+                }
+
+                .checkbox{
+                    label{
+                       display: flex;
+                       
+                        cursor: pointer;
+
+                        input[type="checkbox"]{
+                            margin-right: 10px;
+                            transform: scale(1.5);
+                            
+
+                            -webkit-appearance: none;
+                            appearance: none;
+
+                            font: inherit;
+                            color: $blue-color;
+                            pointer-events: none;
+                            width: 18px;
+                            height: 18px;
+                            background: #ffffff;
+                            border: 1px solid currentColor;
+                            border-radius: 0.15em;
+                            transform: translateY(-0.075em);
+                            
+                        }
+
+                       
+
+                    }
+                }
+            }
+        }
+
         .title{
             font-size: 30px;
             text-align: center;
@@ -40,6 +96,17 @@
             line-height: 1.2;
         }
     }
+
+    .double{
+        zoom: 1;
+        transform:scale(1.1);
+    }
+
+:visited{
+    color: $blue-color;
+}
+
+
 }
 
 
