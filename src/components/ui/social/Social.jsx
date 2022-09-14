@@ -2,6 +2,8 @@
 import { ImFacebook } from "react-icons/im";
 import { ImTwitter } from "react-icons/im";
 
+import "./social.scss";
+
 function Social() {
   return (
     <div>
@@ -10,10 +12,10 @@ function Social() {
       </div>
       <div className="social-icons">
         <a>
-          <ImFacebook />
+          <ImFacebook className="facebook"/>
         </a>
-        <a>
-          <ImTwitter />
+        <a className="twitterBc">
+          <ImTwitter className="twitter"/>
         </a>
       </div>
     </div>

@@ -22,8 +22,8 @@ function Form() {
               Remember me
             </label>
           </div>
-          <div>
-            <a href="#">Forgot password?</a>
+          <div className="link">
+            <a href="#" >Forgot password?</a>
           </div>
         </div>
         <Button label={"LOGIN"} />
