@@ -5,6 +5,10 @@ import "./container.scss";
 function Container() {
   return (
     <div className="container">
+
+      <div className="image-container">
+        
+      </div>
       <Form />
     </div>
   );
